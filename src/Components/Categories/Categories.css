@@ -1,0 +1,93 @@
+.categories{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  margin-top: 8rem;
+}
+
+.categories ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+   
+}
+
+
+.not-active{
+    list-style: none;
+    background-color: orange;
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+.categories ul li:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+
+
+
+
+.main-categories{
+    margin-top: 5rem;
+    display: flex;
+        flex-direction: column;
+   
+    }
+    .categories-name{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+    .compared-results{
+      margin-top: 60px;
+    }
+    .compared-results ul{
+        display: flex;
+        justify-content: center;
+       gap: 30px;
+       flex-wrap: wrap;
+        
+    }
+
+    .compared-results ul li img{
+        width: 19rem;
+        height: 15rem;
+        border-radius: 10px;
+    }
+.compared-results ul li{
+   
+    list-style: none;
+    background-color: rgb(52, 52, 50);
+    padding: -1px 30px 12px 30px;
+    border-radius: 30px;
+    
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease 0.3s;
+}
+
+.compared-results ul li h3{
+    text-align: center;
+    color: aliceblue;
+}
+.active{
+    list-style: none;
+    background-color: rgb(24, 24, 22);
+    padding: 12px 30px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all ease 0.3s;
+    color: aliceblue;
+   
+}
+

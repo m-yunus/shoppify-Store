@@ -1,0 +1,15 @@
+.mainbody{
+    display: flex;
+}
+
+.mainbody img{
+    width: 100%;
+    height: 50rem;
+}
+
+@media screen and (max-width:480px) {
+    .mainbody img{
+        height: 27rem;
+        margin-top: 72px;
+    }
+}
