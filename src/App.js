@@ -14,7 +14,7 @@ function App() {
 
                 <Routes>
 
-                  <Route path="/" exact element={<Mainbody/>}/>
+                  <Route path="/shoppify-Store" exact element={<Mainbody/>}/>
                   <Route path='/:id' element={<ItemDetail/>}/>
                 </Routes>
             
