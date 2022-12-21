@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/shoppify-Store/static/css/main.ffda4e0a.css",
+    "main.js": "/shoppify-Store/static/js/main.804d99d1.js",
+    "static/media/cart.jpg": "/shoppify-Store/static/media/cart.c3b37250270f4a7f3935.jpg",
+    "static/media/photo-1661961112951-f2bfd1f253ce.avif": "/shoppify-Store/static/media/photo-1661961112951-f2bfd1f253ce.ca55797ad0949917bfec.avif",
+    "index.html": "/shoppify-Store/index.html",
+    "main.ffda4e0a.css.map": "/shoppify-Store/static/css/main.ffda4e0a.css.map",
+    "main.804d99d1.js.map": "/shoppify-Store/static/js/main.804d99d1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffda4e0a.css",
+    "static/js/main.804d99d1.js"
+  ]
+}
