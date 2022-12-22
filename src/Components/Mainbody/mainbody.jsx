@@ -9,6 +9,7 @@ const mainbody = () => {
     <div className='mainbody'>
 
             <img src={gadget} alt="" />
+            uioy
     </div>
     <div>
     <Categories/>

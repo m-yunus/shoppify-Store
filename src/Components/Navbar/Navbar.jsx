@@ -1,15 +1,20 @@
-import React from 'react'
+import React,{useRef} from 'react'
 import "./Navbar.css"
 import {Link} from "react-router-dom"
 import shoppify from "../../images/cart.jpg"
 import {BsHandbag} from "react-icons/bs"
-const Navbar = () => {
+import {FaBars,FaTimes} from "react-icons/fa"
+const Navbar = ({shownavbar,NavRef}) => {
+  
+
+  
   return (
    
     <div className='main-nav'>
 
       <div className="nav-left">
-     <img src={shoppify} alt="" /> <h1>shoppify </h1>
+     <img src={shoppify} alt="" /> 
+     <h1>shoppify </h1>
     
       </div>
       <div className="nav-right">
@@ -17,14 +22,17 @@ const Navbar = () => {
         <input type="text" placeholder='search .. ..' />
         </div>
        <div className="nav-list">
-        <ul>
+        <ul ref={NavRef}>
           
           <li>Home</li>
-          <li>Products</li>
-          <li><BsHandbag/>Cart</li>
+          <li>Products</li>  
           <li>about</li>
-
+          <button onClick={shownavbar} className="nav-close-btn">
+          <FaTimes/>
+        </button>
+      
         </ul>
+        <button onClick={shownavbar} className="nav-btn"><FaBars/></button>
        </div>
       </div>
 
