@@ -24,9 +24,9 @@ const Navbar = ({shownavbar,NavRef}) => {
        <div className="nav-list">
         <ul ref={NavRef}>
           
-          <li>Home</li>
-          <li>Products</li>  
-          <li>about</li>
+          <li>HomeAnvar</li>
+          <li>Products123213</li>  
+          <li>aboutsss</li>
           <button onClick={shownavbar} className="nav-close-btn">
           <FaTimes/>
         </button>
